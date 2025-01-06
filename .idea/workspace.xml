@@ -5,14 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b739edc-ca9f-4e82-9c7b-2605739523bb" name="Changes" comment="Django project created. The first app - users: simpe authentication.">
-      <change afterPath="$PROJECT_DIR$/solvepde/users/templates/registration/logged_out.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solvepde/users/templates/users/dashboard.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solvepde/solvepde/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/solvepde/solvepde/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solvepde/templates/base.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solvepde/users/templates/users/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/solvepde/users/templates/users/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solvepde/users/templates/registration/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/solvepde/users/templates/registration/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solvepde/users/templates/registration/password_change_done.html" beforeDir="false" afterPath="$PROJECT_DIR$/solvepde/users/templates/registration/password_change_done.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solvepde/users/templates/registration/password_change_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/solvepde/users/templates/registration/password_change_form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solvepde/users/templates/registration/password_reset_complete.html" beforeDir="false" afterPath="$PROJECT_DIR$/solvepde/users/templates/registration/password_reset_complete.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solvepde/users/templates/registration/password_reset_confirm.html" beforeDir="false" afterPath="$PROJECT_DIR$/solvepde/users/templates/registration/password_reset_confirm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solvepde/users/templates/registration/password_reset_done.html" beforeDir="false" afterPath="$PROJECT_DIR$/solvepde/users/templates/registration/password_reset_done.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solvepde/users/templates/registration/password_reset_email.html" beforeDir="false" afterPath="$PROJECT_DIR$/solvepde/users/templates/registration/password_reset_email.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solvepde/users/templates/registration/password_reset_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/solvepde/users/templates/registration/password_reset_form.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solvepde/users/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/solvepde/users/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solvepde/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/solvepde/users/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +58,9 @@
     &quot;accountId&quot;: &quot;3408cf36-02fc-4fbb-a4ef-e863ef49aaf5&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -125,6 +131,17 @@
     </task>
     <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Django project created. The first app - users: simpe authentication." />
