@@ -5,15 +5,45 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b739edc-ca9f-4e82-9c7b-2605739523bb" name="Changes" comment="Django project created. The first app - users: simpe authentication.">
+      <change afterPath="$PROJECT_DIR$/solvepde/account/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solvepde/solvepde/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/solvepde/solvepde/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solvepde/solvepde/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/solvepde/solvepde/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solvepde/users/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/solvepde/users/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solvepde/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/solvepde/users/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solvepde/users/templates/users/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/solvepde/users/templates/users/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solvepde/users/templates/users/register_done.html" beforeDir="false" afterPath="$PROJECT_DIR$/solvepde/users/templates/users/register_done.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solvepde/users/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/solvepde/users/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solvepde/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/solvepde/users/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solvepde/user_profile/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/solvepde/account/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solvepde/user_profile/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solvepde/user_profile/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solvepde/user_profile/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solvepde/user_profile/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solvepde/user_profile/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solvepde/user_profile/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solvepde/users/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solvepde/users/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solvepde/users/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solvepde/users/forms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solvepde/users/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solvepde/users/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solvepde/users/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solvepde/users/templates/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solvepde/users/templates/registration/logged_out.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solvepde/users/templates/registration/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solvepde/users/templates/registration/password_change_done.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solvepde/users/templates/registration/password_change_form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solvepde/users/templates/registration/password_reset_complete.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solvepde/users/templates/registration/password_reset_confirm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solvepde/users/templates/registration/password_reset_done.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solvepde/users/templates/registration/password_reset_email.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solvepde/users/templates/registration/password_reset_form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solvepde/users/templates/users/dashboard.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solvepde/users/templates/users/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solvepde/users/templates/users/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solvepde/users/templates/users/manage_users.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solvepde/users/templates/users/profile.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solvepde/users/templates/users/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solvepde/users/templates/users/register_done.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solvepde/users/templates/users/registration.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solvepde/users/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solvepde/users/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solvepde/users/views.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +53,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -83,6 +113,8 @@
       <recent name="$PROJECT_DIR$/solvepde/users" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/solvepde/account/templates/account" />
+      <recent name="$PROJECT_DIR$/solvepde/account" />
       <recent name="$PROJECT_DIR$/solvepde/auth" />
       <recent name="$PROJECT_DIR$/solvepde" />
     </key>
