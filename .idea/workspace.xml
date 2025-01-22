@@ -5,18 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b739edc-ca9f-4e82-9c7b-2605739523bb" name="Changes" comment="Django project created. The first app - users: simpe authentication.">
-      <change afterPath="$PROJECT_DIR$/solvepde/account/templates/account/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solvepde/account/migrations/0002_profile_bio.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solvepde/media/users/2025/01/22/Снимок_экрана_от_2025-01-20_16-06-46.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solvepde/publication/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solvepde/publication/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solvepde/publication/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solvepde/publication/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solvepde/publication/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solvepde/publication/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solvepde/publication/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solvepde/account/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/solvepde/account/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solvepde/account/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/solvepde/account/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solvepde/account/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/solvepde/account/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solvepde/account/templates/account/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/solvepde/account/templates/account/dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solvepde/account/templates/registration/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/solvepde/account/templates/registration/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solvepde/account/templates/users/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/solvepde/account/templates/account/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solvepde/account/templates/users/register_done.html" beforeDir="false" afterPath="$PROJECT_DIR$/solvepde/account/templates/account/register_done.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solvepde/account/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/solvepde/account/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solvepde/account/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/solvepde/account/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solvepde/solvepde/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/solvepde/solvepde/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
