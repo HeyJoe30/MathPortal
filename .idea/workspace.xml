@@ -5,18 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b739edc-ca9f-4e82-9c7b-2605739523bb" name="Changes" comment="Django project created. The first app - users: simpe authentication.">
-      <change afterPath="$PROJECT_DIR$/solvepde/account/migrations/0002_profile_bio.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solvepde/media/users/2025/01/22/Снимок_экрана_от_2025-01-20_16-06-46.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solvepde/publication/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solvepde/publication/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solvepde/publication/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solvepde/publication/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solvepde/publication/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solvepde/publication/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solvepde/publication/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solvepde/account/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/solvepde/account/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solvepde/account/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/solvepde/account/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solvepde/publication/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/solvepde/publication/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solvepde/solvepde/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/solvepde/solvepde/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,16 +62,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;testing&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/vadim/Work/02_Programms/PyCharm_projects/New_schemes&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "public",
+    "last_opened_file_path": "/home/vadim/Work/02_Programms/PyCharm_projects/New_schemes",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/solvepde/users" />
